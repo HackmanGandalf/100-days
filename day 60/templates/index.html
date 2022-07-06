@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>html-form</title>
+</head>
+<body>
+    It works!
+
+    <form action="{{url_for ('login') }}" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Please enter your name" name="username">
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="please enter your password" name="password">
+
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
