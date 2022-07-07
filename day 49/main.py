@@ -14,9 +14,9 @@ sign_in = driver.find_element_by_link_text("Sign in")
 sign_in.click()
 
 username = driver.find_element_by_id("username")
-username.send_keys("kesteronah@gmail.com")
+username.send_keys("username")
 password = driver.find_element_by_id("password")
-password.send_keys("evangelist123")
+password.send_keys("password")
 submit = driver.find_element_by_xpath('//*[@id="organic-div"]/form/div[3]/button')
 submit.click()
 
@@ -53,13 +53,13 @@ for item in search_results:
 
 # try:
 #     mobile_number = driver.find_element_by_name("urn:li:fs_easyApplyFormElement:(urn:li:fs_normalized_jobPosting:2444131857,21033189,phoneNumber~nationalNumber)")
-#     mobile_number.send_keys("08135229159")
+#     mobile_number.send_keys("phone")
 # # try:
 # #     mobile_number = driver.find_element_by_name("urn:li:fs_easyApplyFormElement:(urn:li:fs_normalized_jobPosting:2426759649,7164258241519019912,phoneNumber~nationalNumber)")
-# #     mobile_number.send_keys("08135229159")
+# #     mobile_number.send_keys("phone")
 # except:
 #     mobile_number = driver.find_element_by_name("urn:li:fs_easyApplyFormElement:(urn:li:fs_normalized_jobPosting:2413450707,9,phoneNumber~nationalNumber)")
-#     mobile_number.send_keys("08135229159")
+#     mobile_number.send_keys("phone")
 
 # try:
 #     next_step = driver.find_element_by_id("ember407")
